@@ -40,11 +40,25 @@ body{
     color: white;
 }
 
+.menu__link:hover{
+    text-decoration: underline;
+}
+
 .apps{
+    padding: 0 .4rem;
+}
+
+.apps__container{
     display: flex;
     align-items: center;
 
-    padding: 0 1.2rem;
+    padding: .8rem;
+}
+
+.apps__container:hover{
+    cursor: pointer;
+    background-color: rgba(232,234,237,0.08);
+    border-radius: 100%;
 }
 
 .apps__logo{
@@ -53,16 +67,26 @@ body{
     fill: white;
 }
 
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__link{
+    padding: 0 .4rem;
+}
+
 .image-container--profile{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    padding:.4rem;
+}
 
-    padding:0 .8rem;
+.image-container--profile:hover{
+    border-radius: 100%;
+    background: rgba(232,234,237,0.08);
 }
 
 .profile__image{
     border-radius: 100%;
-    overflow: hidden;
-    width: 100%;
 }
