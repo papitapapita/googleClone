@@ -14,6 +14,7 @@ body{
     font-size: 1.6rem;
     background-color: rgb(32,33,36);
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 
 .header{
@@ -89,4 +90,35 @@ body{
 
 .profile__image{
     border-radius: 100%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main__searchbar{
+    border: 1px solid #5f6368;
+    border-radius: 2.4rem;
+}
+
+.main__searchbar:hover{
+    background-color: #5f6368;
+}
+
+svg{
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.main__input{
+    background-color: transparent;
+    border: none;
+}
+
+.main__input:focus-visible{
+    outline: none;
 }
