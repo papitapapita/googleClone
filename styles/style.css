@@ -189,3 +189,39 @@ svg{
 .language__link:hover{
     text-decoration:underline;
 }
+
+.footer__topbar{
+    border-bottom: .1rem solid #212327 ;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+}
+
+.footer__bottombar{
+    padding: 0 2rem;
+    font-size: 1.4rem;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.footer__topbar, .footer__bottombar{
+    color: #9aa0a6;
+    background-color: #171717;
+    width: 100%;
+}
+
+.footer__link{
+    color: #9aa0a6;
+}
+
+.footer__link:hover{
+    text-decoration: underline;
+}
+
+
+.list-container{
+    display: flex;
+}
+
+.footer__list-item{
+    padding: 1.5rem;
+}
