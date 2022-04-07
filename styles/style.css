@@ -101,8 +101,14 @@ body{
 }
 
 .main__searchbar{
+    display: flex;
+    align-items: center;
+
     border: 1px solid #5f6368;
     border-radius: 2.4rem;
+    padding: .5rem .8rem 0 1.4rem;
+    width: 58.2rem;
+    height: 4.4rem;
 }
 
 .main__searchbar:hover{
@@ -114,11 +120,72 @@ svg{
     height: 2.4rem;
 }
 
+.search-icon{
+    margin: 1.2rem 0 0.9rem ;
+    fill: #9aa0a6;
+}
+
+.search-icon__container{
+    padding-right: 1.3rem;
+}
+
+.main__search{
+    padding: 2rem;
+}
+
 .main__input{
+    width: 100%;
     background-color: transparent;
     border: none;
+
+    color: #e8eaed;
 }
 
 .main__input:focus-visible{
     outline: none;
+}
+
+.voice-icon__container{
+    padding: 0 .8rem;
+}
+
+.main__buttons{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.8rem;
+}
+
+.main__button{
+    width: auto;
+    height: 3.4rem;
+    margin: 1.1rem .4rem;
+    border: .1rem transparent solid;
+    border-radius: .4rem;
+    padding: 0 1.6rem;
+
+    background-color: #303134;
+    color: #e8eaed;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.main__button:hover{
+    border-color: #5f6368;
+}
+
+.language{
+    font-size: 1.3rem;
+}
+
+.language__text{
+    color: #bdc1c6;
+    line-height: 2.8rem;
+}
+
+.language__link{
+    color: #8ab4f8;
+}
+
+.language__link:hover{
+    text-decoration:underline;
 }
